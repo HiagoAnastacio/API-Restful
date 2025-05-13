@@ -2,5 +2,5 @@
 
 #  Python
 __pycache__
-docs.venv
-docs.env
+.venv
+.env
