@@ -47,7 +47,6 @@ class Database:
         try:
             # Executa o comando SQL
             self.cursor.execute(sql, params)
-
             # Verifica se o comando é uma consulta (SELECT)
             if sql.strip().lower().startswith("select"):
                 resultado = self.cursor.fetchall()
