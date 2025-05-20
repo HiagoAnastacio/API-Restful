@@ -1,6 +1,5 @@
-from fastapi import FastAPI, HTTPException, status
+from fastapi import FastAPI, HTTPException
 from typing import Type
-from model.database import Database
 from model.basemodel import BaseModel
 from app.main import executar_operacao_db 
 
